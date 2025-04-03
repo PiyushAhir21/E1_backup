@@ -8,20 +8,7 @@ import org.openqa.selenium.edge.EdgeDriver;
 public class WebDriverMethods {
 	public static void main(String[] args) throws InterruptedException {
 		WebDriver driver = new EdgeDriver();
-		/*
-		 * webdriver is type
-		 * driver is reference variable
-		 * new is a keyword which will create random memory space
-		 * in heap area
-		 * cd() is constructor call which does 3 job
-		 * 1. Start the server
-		 * 2. Launch the empty chrome browser
-		 * 3. Register , load and re-initialize the nonstatic members
-		 * in heap area
-		 */
-//		driver = new EdgeDriver();
-//		driver = new FirefoxDriver();
-		
+
 		driver.get("https://www.instagram.com/");
 		
 		String title = driver.getTitle();
